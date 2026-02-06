@@ -39,8 +39,9 @@ Poi visita: http://localhost:8080
 📦 Installazione Manuale
 Clona il repo:
 
-Bash
-git clone [https://github.com/tuo-username/soundBlade.git](https://github.com/tuo-username/soundBlade.git)
+```Bash
+git clone https://github.com/donatodelpeschio/soundBlade.git
+```
 Installa le dipendenze:
 
 Bash
