@@ -1,0 +1,7 @@
+services:
+  soundblade:
+    build: .
+    container_name: soundblade-app
+    ports:
+      - "8080:80"
+    restart: always

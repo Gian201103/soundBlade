@@ -1,0 +1,112 @@
+:root {
+    --primary: #3498db;
+    --accent: #f39c12;
+    --bg: #121212;
+    --card: #1e1e1e;
+    --text: #ffffff;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+#app {
+    width: 100%;
+    max-width: 800px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Dropzone Moderna */
+.dropzone {
+    border: 2px dashed #444;
+    border-radius: 16px;
+    padding: 40px 20px;
+    background: var(--card);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+.dropzone:hover {
+    border-color: var(--primary);
+    background: #252525;
+}
+
+.icon-container {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+/* Waveform e Handles (le palline) */
+#waveform-container {
+    background: var(--card);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+/* Stile per le maniglie di taglio WaveSurfer */
+.wavesurfer-handle {
+    width: 16px !important;
+    height: 16px !important;
+    background-color: #fff !important;
+    border: 3px solid var(--primary) !important;
+    border-radius: 50% !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/* Pulsanti */
+.controls {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+button {
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+button:active { transform: scale(0.95); }
+
+.btn-primary { background: var(--primary); color: white; }
+.btn-secondary { background: #333; color: white; }
+
+button:disabled {
+    background: #444;
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Coffee Link */
+.coffee-link {
+    display: inline-block;
+    margin-top: 20px;
+    color: var(--accent);
+    text-decoration: none;
+    border: 2px solid var(--accent);
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/* Mobile Optimization */
+@media (max-width: 600px) {
+    .controls { flex-direction: column; }
+    .dropzone { padding: 20px; }
+}

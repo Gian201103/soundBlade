@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>soundBlade - Audio Cutter</title>
+
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔪</text></svg>">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/style.css">
+</head>
+<body>
+<div id="app">
+    <header>
+        <h1>🔪 soundBlade</h1>
+        <p class="subtitle">Chirurgia audio professionale, 100% nel tuo browser.</p>
+    </header>
+
+    <main>
+        <div id="dropzone" class="dropzone">
+            <div class="dropzone-content">
+                <div class="icon-container">
+                    <span class="upload-icon">📁</span>
+                </div>
+                <p>Trascina il tuo file audio qui</p>
+                <span>oppure clicca per sfogliare</span>
+                <input type="file" id="audio-upload" accept="audio/*" hidden />
+            </div>
+        </div>
+
+        <div id="waveform-container">
+            <div id="waveform"></div>
+            <div id="time-info">
+                <span id="current-time">00:00</span> / <span id="total-duration">00:00</span>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button id="btn-play" class="btn-secondary" title="Play/Pausa">
+                Riproduci / Pausa
+            </button>
+            <button id="btn-cut" class="btn-primary" disabled>
+                Taglia e Scarica MP3
+            </button>
+        </div>
+
+        <div id="status">In attesa di un file...</div>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="https://paypal.me/mailboxporter" target="_blank" class="coffee-link">
+                ☕ Build me a coffee
+            </a>
+            <p class="license-info">Licensed under MIT • <a href="https://github.com/tuo-username/soundBlade" target="_blank">GitHub</a></p>
+        </div>
+    </footer>
+</div>
+
+<script type="module" src="./src/main.js"></script>
+</body>
+</html>
