@@ -44,13 +44,15 @@ git clone https://github.com/donatodelpeschio/soundBlade.git
 ```
 Installa le dipendenze:
 
-Bash
+```Bash
 npm install
+```
 Avvia in modalità sviluppo:
 
-Bash
+```Bash
 npm run dev
+```
 ☕ Supporta il progetto
-Se trovi questo strumento utile, offrimi un caffè!
+Se trovi questo strumento utile, [offrimi un caffè!](https://paypal.me/mailboxporter)
 
 Rilasciato sotto licenza MIT.
